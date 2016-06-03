@@ -8,19 +8,19 @@ var jsCommentPages = function(){
 					.addClass("js-inactive-tab");
 				switch ($tab.attr("id")){
 					case "blogger-comments": 
-						$tab.prepend("<'http://lh6.googleusercontent.com/-_InM8Yxvqlg/Tg03QmGCkDI/AAAAAAAAAd8/Ozlnv5wP_C8/s800/blogger-white-B.png'>");
+						$tab.prepend("<img src='http://lh6.googleusercontent.com/-_InM8Yxvqlg/Tg03QmGCkDI/AAAAAAAAAd8/Ozlnv5wP_C8/s800/blogger-white-B.png'>");
 						break;
 					case "disqus-comments":
-						$tab.prepend("<'http://4.bp.blogspot.com/-Vh58qAXwdcw/UcbkHl31HMI/AAAAAAAAEJ0/QndAwVtUZAI/s1600/white-disqus-D.png'>");
+						$tab.prepend("<img src='http://4.bp.blogspot.com/-Vh58qAXwdcw/UcbkHl31HMI/AAAAAAAAEJ0/QndAwVtUZAI/s1600/white-disqus-D.png'>");
 						break;
 					case "fb-comments":
-						$tab.prepend("<'http://3.bp.blogspot.com/-WZFew-hmWYs/UcbkHj-2D2I/AAAAAAAAEJw/D0mXysXQP_Q/s1600/white-Facebook-F.png'>");
+						$tab.prepend("<img src='http://3.bp.blogspot.com/-WZFew-hmWYs/UcbkHj-2D2I/AAAAAAAAEJw/D0mXysXQP_Q/s1600/white-Facebook-F.png'>");
 						break;
 					case "get-this":
-						$tab.prepend("<'http://3.bp.blogspot.com/-9dSC4V-ERMs/UclFdUjqV_I/AAAAAAAAEKQ/R0F5B-uHzwM/s1600/Get-this.png'>");
+						$tab.prepend("<img src='http://3.bp.blogspot.com/-9dSC4V-ERMs/UclFdUjqV_I/AAAAAAAAEKQ/R0F5B-uHzwM/s1600/Get-this.png'>");
 						break;
 					case "gplus-comments":
-						$tab.prepend("<'http://2.bp.blogspot.com/-oAGoAXHbA1s/UdVqbMTj5yI/AAAAAAAAENU/b0lZ9QaO0fc/s210/white-Google-Plus.png'>");
+						$tab.prepend("<img src='http://2.bp.blogspot.com/-oAGoAXHbA1s/UdVqbMTj5yI/AAAAAAAAENU/b0lZ9QaO0fc/s210/white-Google-Plus.png'>");
 						break;
 						
 				}
