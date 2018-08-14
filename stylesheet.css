@@ -1,0 +1,30 @@
+a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: #00ff0c;
+	padding: 20px; 
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	border: 5px solid #00ff0c;
+}
+
+a:hover {
+	color: #00ff0c;
+	background-color: black;
+	border: 5px solid #00ff0c;
+}
+
+body {
+	background-color: black;
+}
+
+#base64 {
+	color: black;
+	margin-right: 100%;
+	display: block;
+	margin-top: 300px;
+}
